@@ -1,0 +1,81 @@
+{
+  "seller": [
+    {
+      "name": "Pritam Samanta",
+      "email": "pritam@gmail.com",
+      "password": "piklu@123",
+      "id": 1
+    },
+    {
+      "Name": "Sayan Paul",
+      "Password": "sayan@123",
+      "Email": "sayan@gmail.com",
+      "id": 2
+    },
+    {
+      "Name": "Piklu",
+      "Password": "piklu@123",
+      "Email": "piklu@gmail.com",
+      "id": 3
+    },
+    {
+      "Name": "Maya",
+      "Password": "maya@123",
+      "Email": "maya@gmail.com",
+      "id": 4
+    },
+    {
+      "Name": "abc",
+      "Password": "123",
+      "Email": "abc@gmail.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "samsung s23ultra",
+      "price": "120000",
+      "color": "Dark green",
+      "category": "mobile",
+      "description": "5G Mobile",
+      "image": "https://images.samsung.com/in/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg",
+      "id": 1
+    },
+    {
+      "name": "I Phone",
+      "price": "1000000",
+      "color": "white",
+      "category": "Mobile",
+      "description": "5G ",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 2
+    },
+    {
+      "name": "Hp Laptop",
+      "price": "350000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "i5 Processor",
+      "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/K/6K9C3PA-1_T1656565304.png",
+      "id": 3
+    },
+    {
+      "name": "Nike Shose",
+      "price": "5000",
+      "color": "black",
+      "category": "shose",
+      "description": "Snikers",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/06b754f8-09d3-4a15-a459-e37e955d6d08/air-max-tw-shoes-DhpWvV.png",
+      "id": 4
+    },
+    {
+      "name": "T-Shirt",
+      "price": "1500",
+      "color": "black",
+      "category": "T-shirt",
+      "description": "Cotton product",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa3%2Fbf%2Fa3bfc81d2db797e2d85fb0348b88c86e71561dee.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "id": 5
+    }
+  ]
+}

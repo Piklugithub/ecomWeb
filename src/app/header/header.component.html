@@ -1,0 +1,29 @@
+<nav class="nav">
+    <!-- <img src="https://cdn-icons-png.flaticon.com/512/7191/7191783.png" width="50px" height="40px"> -->
+    <h1><a routerLink="/">E-COMM</a></h1>
+    <div *ngIf="menuType==='default'" class="search">
+        <input #searchInput type="text" (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search For Product">
+        <button (click)="searchSubmit(searchInput.value)">Search</button>
+        <ul class="suggested-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a>{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="/"><fa-icon [icon]="homeIcon"></fa-icon> Home</a></li>
+            <li><a routerLink="/seller-auth"><fa-icon [icon]="storeIcon"></fa-icon> Seller</a></li>
+            <li><a href="#"><fa-icon [icon]="userIcon"></fa-icon> Login</a></li>
+            <li><a href="#"><fa-icon [icon]="cartIcon"></fa-icon> Cart(0)</a></li>
+        </ul>
+
+        <ul *ngSwitchCase="'seller'">
+            <li><a routerLink="/seller-home"><fa-icon [icon]="listIcon"></fa-icon> Product List</a></li>
+            <li><a routerLink="seller-add-product"><fa-icon [icon]="addIcon"></fa-icon> Add Product</a></li>
+            <li><a (click)="logout()"><fa-icon [icon]="logoutIcon"></fa-icon> LogOut</a></li>
+            <li><a href="#">{{sellerName | titlecase}}</a></li>
+        </ul>
+    </div>
+  
+</nav>
